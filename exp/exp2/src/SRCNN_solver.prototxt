@@ -1,0 +1,20 @@
+# The train/test net protocol buffer definition
+net: "examples/PSRCNN/exp/exp2/src/SRCNN_net.prototxt"
+test_iter: 556
+# Carry out testing every 500 training iterations.
+test_interval: 500
+# The base learning rate, momentum and the weight decay of the network.
+base_lr: 0.0001
+momentum: 0.9
+weight_decay: 0
+# The learning rate policy
+lr_policy: "fixed"
+# Display every 100 iterations
+display: 100
+# The maximum number of iterations
+max_iter: 100000
+# snapshot intermediate results
+snapshot: 10000
+snapshot_prefix: "examples/PSRCNN/exp/exp2/model/PSRCNN"
+# solver mode: CPU or GPU
+solver_mode: GPU

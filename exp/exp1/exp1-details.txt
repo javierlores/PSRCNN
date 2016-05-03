@@ -1,0 +1,1 @@
+Train CNN on luminance (Y) channel for YCbCr image with randomly initialized weights.
